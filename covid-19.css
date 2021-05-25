@@ -1,0 +1,316 @@
+html,body{
+    background-color: #fff;
+    font-family:'Source Sans Pro' ,sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+    
+}
+
+* {text-decoration: none;
+    
+    
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left:0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0,0,0,.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;}
+
+.nav .links a{ margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    
+}
+    
+
+    
+.nav .links .s{
+    color:#ffbf00;
+}
+.nav h4{
+   font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 2vw 0 2vw;
+    
+    height: 100vh;
+}
+
+.landingtext h1{
+    font-size: 6vw;
+    margin: 0 !important;
+    
+}
+
+.landingtext h3{
+    margin: 6px;
+    font-size: 20px;
+    opacity: .3;
+    line-height: 30px;
+}
+
+.landingtext .btn {
+    
+    width: 120px;
+    margin-top: 30px;
+   
+    padding: 14px 20px 14px 20px;
+    background-color: #2f8be0;
+    border-radius: 45px;
+    
+    
+}
+.landingtext .btn a{color: #fff;
+     font-size: 1.2vw;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+}
+.landingtext img{
+    width: 28vw;
+    
+}
+
+
+.about{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.abouttext{
+    position: relative;
+    padding: 0 50px;
+    height:inherit;
+}
+
+
+.abouttext h1{
+    position: relative;
+    
+    transform: translate(122px,70px)
+}
+
+.abouttext img{
+    width: 9vw;
+    position: absolute;
+    transform: translate(0,10px)
+    top: 50px;
+    
+}
+
+.aboutlist{
+    width: 50%;
+}
+
+ol{
+    list-style:none;
+    color:  #ffbf00   ;
+}
+
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+li p{
+    font-size: 16px;
+    color: #000;
+    padding left: 60px;
+    line-height: 30px;
+    opacity: .6;
+    
+}
+
+li span{
+   position:absolute; 
+    transform: translate(-50px,0px); 
+    line-height: 25px;
+    font-weight: 600;
+}
+
+/* infosection*/
+
+
+.infosection{
+    height: 600px;
+}
+
+.infoHeader{
+    
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infocards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infocards .card{
+    position: relative;
+    height: 360px;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
+}
+.infocards .one .cardoneimg {
+    width: 180px;
+    position: absolute;
+    top: -30px;
+    right: -50px;
+    
+}
+.infocards .two .cardtwoimg {
+    width: 158px;
+    position: absolute;
+    top: -40px;
+    right: -50px;
+    
+}
+.infocards .three .cardthreeimg {
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    right: -60px;
+    
+}
+.cardbgone{
+    height: 150px;
+    background-color: 	#ffce63;
+}
+.cardbgtwo{
+    height: 150px;
+    background-color: #a1cdff;
+}
+.cardbgthree{
+    height: 150px;
+    background-color:#ffce63;
+}
+
+.cardcontent{
+    padding: 0 20px;
+    
+}
+
+.cardcontent h2{
+    font-weight: 600;
+}
+
+.cardcontent p{
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.cardcontent .cardbtn{
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: #ededed;
+    height: 20px;
+    width: 25px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+     transition: all ease-in-out 0.2s;
+}
+
+.cardcontent .cardbtn:hover {
+background-color: #2f8be0;
+}
+
+.cardcontent .cardbtn .cardIcon{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+}
+
+/*banner*/
+
+.banner{
+    height: 400px;
+    background-color: #ffce63;
+    
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.bannertext h1{
+    font-size: 3vw;
+    color: #000;
+    font-weight: 600;
+    
+}
+
+.bannertext img{
+    width: 10vw;
+    margin-right: 10px;
+}
+.bannerimg img{
+    width: 20vw;
+    background-color: #ffce63;
+}
+
+/*footer*/
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footerlinks a{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.footerlinks .s{
+    color: #ffbf00;
+}
+
